@@ -1,0 +1,33 @@
+:root {
+  --bg-dark: #030303;
+  --bg-light: #fff;
+  --dark-red: #710707;
+  --font-color-light: #fff;
+  --font-color-gold: #9D8665;
+  --font-family-main: 'Roboto', Arial, Helvetica, sans-serif;
+  --font-family-extra: 'Forum', cursive;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  font-family: var(--font-family-main);
+  font-size: 22px;
+  font-weight: 300;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
