@@ -299,3 +299,136 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
+
+/* EXPLORE */
+
+.explore {
+  margin-top: -4px;
+}
+.explore__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 77px 0 90px 0;
+}
+.explore-desc {
+  width: 665px;
+}
+.section-title--dark {
+  padding-top: 0px;
+}
+.section-title--dark::after {
+  content: '';
+  display: block;
+  margin: 30px 0 75px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--dark-red);
+}
+.explore-texts {
+  margin-left: 10px;
+  margin-top: -41px;
+}
+.explore-text {
+  padding: 12.5px 0;
+  font-weight: 300;
+  line-height: 38.5px;
+}
+.explore-text span {
+  color: #CAAA7D;
+}
+.explore-img {
+  max-width: 720px;
+}
+
+
+.contacts {
+  padding-bottom: 75px;
+}
+.contacts__content {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-title {
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 36px;
+}
+.contacts-title span {
+  display: block;
+}
+.contacts-info {
+  margin-bottom: 20px;
+}
+
+
+.footer {
+  height: 300px;
+  margin-top: -10px;
+  padding: 75px 0;
+}
+.footer__inner {
+  padding-left: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__inner .logo {
+  background-position: left 6%;
+}
+.footer-nav {
+  margin-left: -255px;
+}
+.footer-list {
+  width: 370px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  column-gap: 158px;
+}
+.footer-link {
+  letter-spacing: 2px;
+  line-height: 50px;
+  transition: all .3s;
+}
+.footer-link:hover {
+  color: var(--font-color-gold);
+}
+.socials__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 340px;
+  gap: 24px;
+  padding-bottom: 15px;
+}
+.socials__link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid #666666;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all .3s;
+}
+.socials__link:hover {
+  filter: invert(50%) sepia(42%) saturate(300%) hue-rotate(356deg) brightness(99%) contrast(84%);
+}
+.socials__link--yt {
+  background-image: url(../assets/icons/socials-youtube.svg);
+}
+.socials__link--inst {
+  background-image: url(../assets/icons/socials-instagram.svg);
+}
+.socials__link--fb {
+  background-image: url(../assets/icons/socials-fb.svg);
+}
+.socials__link--tw {
+  background-image: url(../assets/icons/socials-twitter.svg);
+}
+.socials__link----pin {
+  background-image: url(../assets/icons/socials-pinterest.svg);
+}
