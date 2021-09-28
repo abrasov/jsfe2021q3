@@ -62,21 +62,28 @@ a {
   align-items: center;
 }
 .header__logo {
+
+}
+.logo{
   width: 200px;
+  height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   cursor: pointer;
 }
-.header__logo:hover,
-.header__logo:focus {
-  color: var(--font-color-gold);
 
+.logo:hover,
+.logo:focus {
+  color: var(--font-color-gold);
   transition: all 0.3s;
 }
-.logo{
+.logo:hover .logo__img,
+.logo:focus .logo__img {
+  filter: invert(50%) sepia(42%) saturate(300%) hue-rotate(356deg) brightness(99%) contrast(84%);
 }
 .logo__img {
+  transition: all 0.3s;
 }
 .logo__text {
   font-size: 28px;
@@ -221,9 +228,10 @@ a {
   background:transparent;
   cursor: pointer;
   background-repeat: no-repeat;
+  transition: all 0.3s;
 }
 .slider-arrow:hover{
-  fill: var(--bg-hover);
+  filter: invert(50%) sepia(42%) saturate(300%) hue-rotate(356deg) brightness(99%) contrast(84%);
 }
 .arrow-prev {
   background-image: url(../assets/icons/arrow-left.svg);
@@ -336,11 +344,37 @@ a {
 .explore-text span {
   color: #CAAA7D;
 }
+.explore__slider {
+  position: relative;
+  width: 720px;
+  height: 700px;
+  overflow: hidden;
+}
+.explore-slider__before {
+  width: 61%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.explore-slider__diveded {
+  width: 39px;
+  height: 100%;
+  position: absolute;
+  left: 58.5%;
+  background: url(../assets/icons/explore-slider.svg);
+  cursor: ew-resize;
+  z-index: 10;
+}
+.explore-img--before {
+}
+.explore-img--after {
+}
 .explore-img {
-  max-width: 720px;
+  width: 720px;
 }
 
-
+/* CONTACTS */
 .contacts {
   padding-bottom: 75px;
 }
@@ -365,21 +399,22 @@ a {
   color: var(--font-color-gold);
 }
 
+/* FOOTER */
 .footer {
-  height: 300px;
   margin-top: -10px;
-  padding: 75px 0;
+  padding: 75px 0 0;
 }
-.footer__inner {
+.footer__top {
   padding-left: 14px;
   display: flex;
   justify-content: space-between;
 }
-.footer__inner .logo {
+.footer__top .logo {
   background-position: left 6%;
 }
 .footer-nav {
   margin-left: -255px;
+  margin-top: -8px;
 }
 .footer-list {
   width: 370px;
@@ -433,4 +468,25 @@ a {
 }
 .socials__link----pin {
   background-image: url(../assets/icons/socials-pinterest.svg);
+}
+.footer__bottom {
+  margin-top: 50px;
+  padding: 50px 0;
+  border-top: 3px solid #666;
+  letter-spacing: 2px;
+  line-height: 22px;
+  color: var(--font-color-light);
+}
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+}
+.footer__link {
+  transition: color .3s;
+}
+.footer__link:hover,
+.footer__link:focus {
+  color: var(--font-color-gold);
 }

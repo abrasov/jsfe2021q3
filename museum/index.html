@@ -158,7 +158,15 @@
             </p>
           </div>
         </div>
-        <img src="./assets/images/explore/before.jpg" alt="picture Las Meninas" class="explore-img">
+        <div class="explore__slider explore-slider">
+          <div class="explore-slider__diveded"></div>
+          <div class="explore-slider__before">
+            <img src="./assets/images/explore/before.jpg" alt="picture Las Meninas" class="explore-img explore-img--before">
+          </div>
+          <div class="explore-slider__after">
+            <img src="./assets/images/explore/after.jpg" alt="picture Las Meninas" class="explore-img explore-img--after">
+          </div>
+        </div>
       </div>
     </section>
     <section class="contacts section--light" id="contacts">
@@ -188,11 +196,14 @@
     </section>
   </main>
   <footer class="footer dark-section">
-      <div class="container">
-        <div class="footer__inner">
-          <div class="logo">Louvre</div>
-          <nav class="footer-nav">
-            <ul class="footer-list">
+    <div class="footer__container container">
+      <div class="footer__top">
+        <div class="footer__logo logo">
+          <img src="./assets/icons/logo.svg" alt="logo" class="logo__img">
+          <span class="logo__text">louvre</span>
+        </div>
+        <nav class="footer-nav">
+          <ul class="footer-list">
               <li class="footer-item">
                 <a href="#visiting" class="footer-link">Visiting</a>
               </li>
@@ -211,28 +222,47 @@
               <li class="footer-item">
                 <a href="#contacts" class="footer-link">Contacts</a>
               </li>
-            </ul>
-          </nav>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="" class="socials__link socials__link--yt"></a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link socials__link--inst"></a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link socials__link--fb"></a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link socials__link--tw"></a>
-            </li>
-            <li class="socials__item">
-              <a href="" class="socials__link socials__link----pin"></a>
-            </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="socials__list">
+            <li class="socials__item">
+              <a href="https://www.youtube.com/user/louvre" class="socials__link socials__link--yt" target="_blank"></a>
+            </li>
+            <li class="socials__item">
+              <a href="https://www.instagram.com/museelouvre/" class="socials__link socials__link--inst" target="_blank"></a>
+            </li>
+            <li class="socials__item">
+              <a href="https://www.facebook.com/museedulouvre" class="socials__link socials__link--fb" target="_blank"></a>
+            </li>
+            <li class="socials__item">
+              <a href="http://twitter.com/museelouvre" class="socials__link socials__link--tw" target="_blank"></a>
+            </li>
+            <li class="socials__item">
+              <a href="https://www.pinterest.fr/museedulouvre/" class="socials__link socials__link----pin" target="_blank"></a>
+            </li>
+        </ul>
       </div>
-    </footer>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__container container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <p>© 2021</p>
+          </li>
+          <li class="footer__item">
+            <a href="https://rs.school/js/" class="footer__link">
+              The Rolling Scopes School
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="https://github.com/abrasov"class="footer__link">
+              abrasov
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
   <script src="./js/main.js"></script>
 </body>
