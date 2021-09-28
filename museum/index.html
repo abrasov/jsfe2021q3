@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="./css/style.css">
   <title>Museum</title>
 </head>
@@ -52,10 +52,10 @@
             <br>
             to the louvre
           </h2>
-          <h3 class="welcome-subtitle">
+          <h4 class="welcome-subtitle">
             From the castle to the museum
-          </h3>
-          <a href="#" class="welcome__link btn">
+          </h4>
+          <a href="./tours/discover.html" target="_blank" class="welcome__link btn">
             Discover the Louvre
           </a>
         </div>
@@ -90,16 +90,16 @@
         <h2 class="section-title section-title--gold">
           Virtual tour
         </h2>
-                  <div class="tour__list">
-            <a class="tour__card card">
-              <img src="/assets/images/visiting/tour-1.jpg" alt="Royal Palace" class="card-image">
-              <h3 class="card-title">Royal Palace</h3>
-              <div class="card-desc">
+        <div class="tour__list">
+          <a class="tour__card card" href="tours/tour-1.html" target="_blank">
+            <img src="/assets/images/visiting/tour-1.jpg" alt="Royal Palace" class="card-image">
+            <h3 class="card-title">Royal Palace</h3>
+            <div class="card-desc">
                 360° Virtual Tour
                 <p>Google Street Panorama View</p>
               </div>
             </a>
-            <a class="tour__card card">
+            <a class="tour__card card" href="tours/tour-2.html" target="_blank">
               <img src="./assets/images/visiting/tour-2.jpg" alt="Denon wing" class="card-image">
               <h3 class="card-title">Denon wing</h3>
               <div class="card-desc">
@@ -107,7 +107,7 @@
                 <p>Google Street Panorama View</p>
               </div>
             </a>
-            <a class="tour__card card">
+            <a class="tour__card card" href="tours/tour-3.html" target="_blank">
               <img src="./assets/images/visiting/tour-3.jpg" alt="Colonnade Perrault" class="card-image">
               <h3 class="card-title">Colonnade Perrault</h3>
               <div class="card-desc">
@@ -115,7 +115,7 @@
                 <p>Google Street Panorama View</p>
               </div>
             </a>
-            <a class="tour__card card">
+            <a class="tour__card card" href="tours/tour-4.html" target="_blank">
               <img src="./assets/images/visiting/tour-4.jpg" alt="Greek hall" class="card-image">
               <h3 class="card-title">Greek hall</h3>
               <div class="card-desc">
@@ -123,7 +123,7 @@
                 <p>Google Street Panorama View</p>
               </div>
             </a>
-            <a class="tour__card card">
+            <a class="tour__card card" href="tours/tour-5.html" target="_blank">
               <img src="./assets/images/visiting/tour-5.jpg" alt="Mona Lisa" class="card-image">
               <h3 class="card-title">Mona Lisa</h3>
               <div class="card-desc">
@@ -131,7 +131,7 @@
                 <p>Google Street Panorama View</p>
               </div>
             </a>
-            <a class="tour__card card">
+            <a class="tour__card card" href="tours/tour-6.html" target="_blank">
               <img src="./assets/images/visiting/tour-6.jpg" alt="Night Palace" class="card-image">
               <h3 class="card-title">Night Palace</h3>
               <div class="card-desc">
@@ -161,25 +161,25 @@
         <img src="./assets/images/explore/before.jpg" alt="picture Las Meninas" class="explore-img">
       </div>
     </section>
-          <section class="contacts section--light">
-        <div class="container">
-          <h2 class="section-title section-title--gold">Contacts</h2>
-          <div class="contacts__content">
-            <div class="contacts-desc">
-              <h4 class="contacts-title">
-                Palais Royal
-                <span>Musee du Louvre</span>
-              </h4>
-              <p class="contacts-info">address: 75001 Paris, France</p>
-              <p class="contacts-info">phone: +33(0) 1 40 20 50 50</p>
-              <p class="contacts-info">mail: info@louvre.fr</p>
-            </div>
-            <div class="contacts-map">
-              <img src="./assets/images/map.png" alt="map">
-            </div>
+    <section class="contacts section--light" id="contacts">
+      <div class="container">
+        <h2 class="section-title section-title--gold">Contacts</h2>
+        <div class="contacts__content">
+          <div class="contacts-desc">
+            <h4 class="contacts-title">
+              Palais Royal
+              <span>Musee du Louvre</span>
+            </h4>
+            <p class="contacts-info">address: 75001 Paris, France</p>
+            <a href="tel:330140205050" class="contacts-info">phone: +33(0) 1 40 20 50 50</a>
+            <a href="mailto:info@louvre.fr" class="contacts-info">mail: info@louvre.fr</a>
+          </div>
+          <div class="contacts-map">
+            <img src="./assets/images/map.png" alt="map">
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   </main>
   <footer class="footer dark-section">
       <div class="container">
