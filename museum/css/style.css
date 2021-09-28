@@ -359,9 +359,12 @@ a {
   display: block;
 }
 .contacts-info {
+  display: block;
   margin-bottom: 20px;
 }
-
+.contacts-info:not(:first-child):hover {
+  color: var(--font-color-gold);
+}
 
 .footer {
   height: 300px;
