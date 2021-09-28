@@ -344,11 +344,37 @@ a {
 .explore-text span {
   color: #CAAA7D;
 }
+.explore__slider {
+  position: relative;
+  width: 720px;
+  height: 700px;
+  overflow: hidden;
+}
+.explore-slider__before {
+  width: 61%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 5;
+}
+.explore-slider__diveded {
+  width: 39px;
+  height: 100%;
+  position: absolute;
+  left: 58.5%;
+  background: url(../assets/icons/explore-slider.svg);
+  cursor: ew-resize;
+  z-index: 10;
+}
+.explore-img--before {
+}
+.explore-img--after {
+}
 .explore-img {
-  max-width: 720px;
+  width: 720px;
 }
 
-
+/* CONTACTS */
 .contacts {
   padding-bottom: 75px;
 }
@@ -373,6 +399,7 @@ a {
   color: var(--font-color-gold);
 }
 
+/* FOOTER */
 .footer {
   margin-top: -10px;
   padding: 75px 0 0;
