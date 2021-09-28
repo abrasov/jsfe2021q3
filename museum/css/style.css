@@ -265,12 +265,13 @@ a {
   cursor: pointer;
   transition: all 0.3s;
 }
-.card:hover {
+.card:hover .card-image {
   box-shadow: 15px 10px 25px var(--font-color-gold);
 }
 .card-image {
   max-width: 440px;
   width: 100%;
+  transition: all 0.3s;
 }
 .card-title {
   padding: 15px 0 11px;
@@ -360,7 +361,7 @@ a {
   display: block;
   margin-bottom: 20px;
 }
-.contacts-info:not(:first-child):hover {
+.contacts-link:hover {
   color: var(--font-color-gold);
 }
 
