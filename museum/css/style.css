@@ -566,6 +566,119 @@ input[type=range]::-webkit-slider-thumb {
   box-shadow: 0 0 45px 0 var(--font-color-gold);
 }
 
+/* TICKETS */
+.tickets {
+  padding-bottom: 75px;
+}
+.section-title--tickets {
+  padding: 75px 0;
+  color: var(--font-color-gold);
+}
+.section-title--tickets::after {
+  content: '';
+  display: block;
+  margin: 28px 0 50px;
+  width: 100%;
+  height: 3px;
+  background-color: var(--dark-red);
+}
+.tickets__content {
+  margin-top: -37px;
+  display: flex;
+  justify-content: flex-start;
+}
+.tickets__checks {
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.ticket-type {
+  width: 270px;
+}
+.tickets-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 50px;
+}
+.amount > .tickets-title {
+  margin-bottom: 25px;
+}
+.radio-type {
+  margin: 25px 0;
+}
+
+.type-label {
+  margin-left: 23px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.type-label:hover {
+  color: var(--font-color-gold);
+}
+.amount {
+  margin-left: 215px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.amount-label {
+  margin-bottom: 15px;
+  text-align: left;
+}
+.amount-btns{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: 3px solid #000;
+  margin-bottom: 35px;
+}
+input[type=number] {
+  width: 100%;
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: #000;
+  outline: none;
+}
+.btn-minus, .btn-plus {
+  font-size: 32px;
+  font-weight: 400;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  width: 18px;
+  height: 38px;
+}
+.price {
+  margin: 15px 0 60px;
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+  letter-spacing: 1.65px;
+}
+.amount-btn {
+  width: 175px;
+  height: 50px;
+  font-family: var(--font-family-main);
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: var(--font-color-light);
+  transition: all 0.3s;
+}
+.amount-btn:hover {
+  background-color: var(--bg-hover);
+}
+
 /* PARALLAX */
 .parallax {
   width: 100%;
