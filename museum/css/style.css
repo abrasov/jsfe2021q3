@@ -494,8 +494,13 @@ input[type=range]::-webkit-slider-thumb {
 .video-slider__poster {
   width: 100%;
 }
-.video-slider__controls {
+.video-slider__controls-block {
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.video-slider__controls {
   display: flex;
   gap: 20px;
   justify-content: center;
