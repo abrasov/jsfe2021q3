@@ -183,9 +183,9 @@
         </div>
         <div class="video-controls">
           <button class="btn btn-play"></button>
-          <input type="range" name="video-progress"class="video-progress" min="0" max="100" value="48"step="1">
+          <input type="range" name="video-progress" class="video-progress" min="0" max="100" value="48" step="1">
           <button class="btn btn-volume"></button>
-          <input type="range" name="volume-progress"class="volume-progress" min="0" max="10" value="5"step="1">
+          <input type="range" name="volume-progress" class="volume-progress" min="0" max="10" value="5" step="1">
           <button class="btn btn-screen"></button>
         </div>
         <div class="video-slider">
@@ -200,15 +200,18 @@
               <img src="./assets/images/video/poster3.jpg" alt="postr 3" class="video-slider__poster">
             </div>
           </div>
-          <ul class="video-slider__controls">
+          <div class="video-slider__controls-block">
+
             <button class="video-arrow video-arrow__prev"></button>
-            <li class="video-controls__item video-controls__item--active"></li>
-            <li class="video-controls__item"></li>
-            <li class="video-controls__item"></li>
-            <li class="video-controls__item"></li>
-            <li class="video-controls__item"></li>
+            <ul class="video-slider__controls">
+              <li class="video-controls__item video-controls__item--active"></li>
+              <li class="video-controls__item"></li>
+              <li class="video-controls__item"></li>
+              <li class="video-controls__item"></li>
+              <li class="video-controls__item"></li>
+            </ul>
             <button class="video-arrow video-arrow__next"></button>
-          </ul>
+          </div>
         </div>
       </div>
     </section>
