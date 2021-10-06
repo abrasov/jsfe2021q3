@@ -402,7 +402,7 @@ a {
 .section-video {
 }
 .video {
-  padding: 75px 0;
+  padding: 75px 0 70px;
 }
 .video__container {
 }
@@ -426,13 +426,15 @@ a {
   line-height: 175%;
 }
 .video-back {
-  margin-top: 90px;
+  margin-top: 75px;
   position: relative;
   padding: 0;
   background-color: #000;
 }
 .video-back__img {
   width: 100%;
+  max-height: 650px;
+  height: 100%;
 }
 .btn {
   border: none;
@@ -507,7 +509,7 @@ input[type=range]::-webkit-slider-thumb {
   background-image: url(../assets/icons/fullscreen.svg);
 }
 .video-slider{
-  margin-top: 40px;
+  margin-top: 35px;
 }
 .video-slider__content {
   display: flex;
@@ -562,7 +564,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 .gallery {
   position: relative;
-  height: 1900px;
+  height: 2200px;
   overflow: hidden;
 }
 .gallery::after {
@@ -607,7 +609,7 @@ input[type=range]::-webkit-slider-thumb {
 .section-title--tickets::after {
   content: '';
   display: block;
-  margin: 28px 0 50px;
+  margin: 28px 0 30px;
   width: 100%;
   height: 3px;
   background-color: var(--dark-red);
@@ -722,7 +724,7 @@ input[type=number] {
 
 /* CONTACTS */
 .contacts {
-  padding-bottom: 75px;
+  padding-bottom: 85px;
 }
 .contacts__content {
   padding-left: 10px;
@@ -841,6 +843,14 @@ input[type=number] {
 }
 
 @media(max-width: 1470px){
+  .video,
+  .gallery,
+  .tickets,
+  .contacts,
+  .footer {
+    display: none;
+  }
+
   .amount {
     margin-left: 100px;
   }
