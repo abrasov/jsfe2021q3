@@ -334,7 +334,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  padding: 77px 0 90px 20px;
+  padding: 77px 0 77px 20px;
 }
 .explore-desc {
   width: 659px;
@@ -1039,6 +1039,9 @@ input[type=number] {
   .explore__slider {
     margin-top: 0;
   }
+  .parallax {
+    height: 350px;
+  }
 }
 
 @media(max-width:768px){
@@ -1092,7 +1095,9 @@ input[type=number] {
     font-size: 22px;
     line-height: 24.3px;
   }
-
+  .parallax {
+    height: 300px;
+  }
 }
 
 @media(max-width: 450px){
