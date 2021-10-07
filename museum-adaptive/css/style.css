@@ -584,7 +584,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 .gallery-content {
   width: 100%;
-  height: 1970px;
+  height: 1960px;
   display: flex;
   justify-content: space-between;
   column-gap: 36px;
@@ -741,7 +741,6 @@ input[type=number] {
   padding-bottom: 85px;
 }
 .contacts__content {
-  /* padding-left: 10px; */
   display: flex;
   justify-content: space-between;
 }
@@ -762,6 +761,7 @@ input[type=number] {
 }
 .contacts-map img {
   width: 100%;
+  max-width: 960px;
 }
 
 /* FOOTER */
@@ -938,6 +938,16 @@ input[type=number] {
   .gallery-content {
     height: 1265px;
   }
+  .contacts-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+  .contacts-info {
+    margin-bottom: 10px;
+  }
+  .contacts-map img {
+    max-width: 694px;
+  }
 }
 @media(max-width: 1024px){
   .nav__list {
@@ -1027,6 +1037,7 @@ input[type=number] {
     font-size: 16px;
     line-height: 18.75px;
   }
+
 }
 
 @media(max-width: 930px){
@@ -1081,6 +1092,24 @@ input[type=number] {
   }
   .parallax {
     height: 350px;
+  }
+  .contacts__content {
+    flex-wrap: wrap;
+  }
+  .contacts-desc {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .contacts-title {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .contacts-info {
+    margin-bottom: 12px;
+  }
+  .contacts-map img {
+    width: 100%;
+    max-width: 960px;
   }
 }
 
@@ -1225,5 +1254,15 @@ input[type=number] {
   }
   .gallery-content {
     height: 640px;
+  }
+  .contacts-desc {
+    margin-bottom: 30px;
+  }
+  .contacts-title {
+    font-size: 16px;
+  }
+  .contacts-info {
+    font-size: 16px;
+    margin-bottom: 15px;
   }
 }
